@@ -6,7 +6,7 @@ import StudentTable from "./StudentTable";
 const Home = () => {
   return (
     <div className="bg-[#172227] font-[Inter] text-white">
-         <Navbar/>
+        <Navbar/>
         <Hero/>
         <StudentTable/>
         <Footer/>

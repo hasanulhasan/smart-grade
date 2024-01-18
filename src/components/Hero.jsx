@@ -1,4 +1,4 @@
-// import Banner from '../assets/hero-graphics'
+import Banner from '../assets/hero-graphics.svg'
 const Hero = () => {
   return (
     <section
@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="grid md:grid-cols-2 items-center w-10/12 mx-auto">
                     <img
                         className="md:order-2 object-cover ml-auto animate-updown"
-                        src="./assets/hero-graphics.svg"
+                        src={Banner}
                         width="500px"
                         height="500px"
                         alt="Banner"

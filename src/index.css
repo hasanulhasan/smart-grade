@@ -5,7 +5,7 @@
 @layer components {
   .animate-updown {
       animation-name: animate-updownAnim;
-      animation-duration: 2s;
+      animation-duration: 4s;
       animation-iteration-count: infinite;
       animation-direction: alternate-reverse;
   }

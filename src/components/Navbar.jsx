@@ -1,4 +1,4 @@
-// import Logo from '../assets/lws-logo-en'
+import Logo from './../assets/logo.svg'
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
                 <a href="/">
                     <img
                         className="h-[40px]"
-                        src='../assets/lws-logo-en.svg'
+                        src={Logo}
                         alt="Lws"
                     />
                 </a>

@@ -1,3 +1,46 @@
+import TableData from "./TableData";
+
+const classOneData = [
+    {
+        id: 1,
+        name: 'Jhon Doe',
+        scores: 'A+',
+        percentage: '97%'    
+    },
+    {
+        id: 2,
+        name: 'Jhon Cina',
+        scores: 'A',
+        percentage: '75%'    
+    },
+    {
+        id: 3,
+        name: 'Michael Jack',
+        scores: 'A',
+        percentage: '75%'    
+    },
+]
+const classTwoData = [
+    {
+        id: 4,
+        name: 'David Malan',
+        scores: 'A+',
+        percentage: '99%'    
+    },
+    {
+        id: 5,
+        name: 'Mark Wah',
+        scores: 'A',
+        percentage: '75%'    
+    },
+    {
+        id: 5,
+        name: 'Michael Jackson',
+        scores: 'A-',
+        percentage: '65%'    
+    },
+]
+
 const StudentTable = () => {
   return (
     <section className="py-24 lg:pt-[120px] lg:pb-28">
@@ -78,59 +121,18 @@ const StudentTable = () => {
                                     ClassName One
                                 </td>
                             </tr>
-                            <tr className="border-b border-[#7ECEB529]">
-                                <td className="p-5 text-sm md:text-xl">1</td>
-                                <td className="p-5 text-sm md:text-xl">
-                                    <div className="flex space-x-3 items-center">
-                                        <img
-                                            className="w-8 h-8"
-                                            src="./assets/avatar.png"
-                                            width="32"
-                                            height="32"
-                                            alt="John Smith"
-                                        />
-                                        <span className="whitespace-nowrap"
-                                            >John Smith</span
-                                        >
-                                    </div>
-                                </td>
-                                <td className="p-5 text-sm md:text-xl text-center">
-                                    A+
-                                </td>
-                                <td className="p-5 text-sm md:text-xl text-center">
-                                    98%
-                                </td>
-                            </tr>
-
+                            {
+                                classOneData.map(data => <TableData key={data.id} data={data}></TableData>)
+                            }
                             {/* <!-- className two --> */}
                             <tr className="bg-white/5">
                                 <td className="p-5 text-sm md:text-xl" colSpan="4">
                                     ClassName Two
                                 </td>
                             </tr>
-                            <tr className="border-b border-[#7ECEB529]">
-                                <td className="p-5 text-sm md:text-xl">1</td>
-                                <td className="p-5 text-sm md:text-xl">
-                                    <div className="flex space-x-3 items-center">
-                                        <img
-                                            className="w-8 h-8"
-                                            src="./assets/avatar.png"
-                                            width="32"
-                                            height="32"
-                                            alt="John Smith"
-                                        />
-                                        <span className="whitespace-nowrap"
-                                            >John Smith</span
-                                        >
-                                    </div>
-                                </td>
-                                <td className="p-5 text-sm md:text-xl text-center">
-                                    A+
-                                </td>
-                                <td className="p-5 text-sm md:text-xl text-center">
-                                    98%
-                                </td>
-                            </tr>
+                            {
+                                classTwoData.map(data => <TableData key={data.id} data={data}></TableData>)
+                            }
                         </tbody>
                     </table>
                 </div>
