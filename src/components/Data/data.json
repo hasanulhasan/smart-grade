@@ -1,0 +1,126 @@
+{
+  "classOne": [
+    {
+        "id": 1,
+        "name": "Jhon Doe",
+        "scores": "A+",
+        "percentage": "97%"
+    },
+    {
+        "id": 2,
+        "name": "Jhon Cina",
+        "scores": "A",
+        "percentage": "75%"
+    },
+    {
+        "id": 3,
+        "name": "Michael Jack",
+        "scores": "A",
+        "percentage": "75%"
+    },
+    {
+        "id": 4,
+        "name": "David Malan",
+        "scores": "A+",
+        "percentage": "99%"
+    },
+    {
+        "id": 5,
+        "name": "Mark Wah",
+        "scores": "C",
+        "percentage": "45%"
+    },
+    {
+        "id": 6,
+        "name": "Michael Jackson",
+        "scores": "A-",
+        "percentage": "65%"
+    },
+    {
+        "id": 7,
+        "name": "David Via",
+        "scores": "A+",
+        "percentage": "99%"
+    },
+    {
+        "id": 8,
+        "name": "Mark wah",
+        "scores": "A",
+        "percentage": "75%"
+    },
+    {
+        "id": 9,
+        "name": "Mike",
+        "scores": "A-",
+        "percentage": "65%"
+    },
+    {
+        "id": 10,
+        "name": "Rock",
+        "scores": "B",
+        "percentage": "55%"
+    }
+  ],
+  "classTwo": [
+    {
+        "id": 1,
+        "name": "Jhon Do",
+        "scores": "A+",
+        "percentage": "97%"
+    },
+    {
+        "id": 2,
+        "name": "Jhon Abraham",
+        "scores": "A",
+        "percentage": "75%"
+    },
+    {
+        "id": 3,
+        "name": "Michael Pack",
+        "scores": "D",
+        "percentage": "40%"
+    },
+    {
+        "id": 4,
+        "name": "David Dawan",
+        "scores": "A+",
+        "percentage": "99%"
+    },
+    {
+        "id": 5,
+        "name": "Steve Wah",
+        "scores": "A",
+        "percentage": "75%"
+    },
+    {
+        "id": 6,
+        "name": "Michael Lalson",
+        "scores": "A-",
+        "percentage": "65%"
+    },
+    {
+        "id": 7,
+        "name": "David Kala",
+        "scores": "A+",
+        "percentage": "99%"
+    },
+    {
+        "id": 8,
+        "name": "James Mark",
+        "scores": "F",
+        "percentage": "25%"
+    },
+    {
+        "id": 9,
+        "name": "Henry Jackson",
+        "scores": "A-",
+        "percentage": "65%"
+    },
+    {
+        "id": 10,
+        "name": "Robert Dunga",
+        "scores": "A-",
+        "percentage": "65%"
+    }
+]
+}

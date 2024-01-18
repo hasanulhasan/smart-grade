@@ -1,45 +1,5 @@
 import TableData from "./TableData";
-
-const classOneData = [
-    {
-        id: 1,
-        name: 'Jhon Doe',
-        scores: 'A+',
-        percentage: '97%'    
-    },
-    {
-        id: 2,
-        name: 'Jhon Cina',
-        scores: 'A',
-        percentage: '75%'    
-    },
-    {
-        id: 3,
-        name: 'Michael Jack',
-        scores: 'A',
-        percentage: '75%'    
-    },
-]
-const classTwoData = [
-    {
-        id: 4,
-        name: 'David Malan',
-        scores: 'A+',
-        percentage: '99%'    
-    },
-    {
-        id: 5,
-        name: 'Mark Wah',
-        scores: 'A',
-        percentage: '75%'    
-    },
-    {
-        id: 5,
-        name: 'Michael Jackson',
-        scores: 'A-',
-        percentage: '65%'    
-    },
-]
+import data from "../components/Data/data.json"
 
 const StudentTable = () => {
   return (
@@ -122,7 +82,7 @@ const StudentTable = () => {
                                 </td>
                             </tr>
                             {
-                                classOneData.map(data => <TableData key={data.id} data={data}></TableData>)
+                                data.classOne.map(data => <TableData key={data.id} data={data}></TableData>)
                             }
                             {/* <!-- className two --> */}
                             <tr className="bg-white/5">
@@ -131,7 +91,7 @@ const StudentTable = () => {
                                 </td>
                             </tr>
                             {
-                                classTwoData.map(data => <TableData key={data.id} data={data}></TableData>)
+                                data.classTwo.map(data => <TableData key={data.id} data={data}></TableData>)
                             }
                         </tbody>
                     </table>
